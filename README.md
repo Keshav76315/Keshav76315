@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HERO PANEL -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed; border-collapse: collapse; background-color: #181818; border: 1px solid #2A2A2A; border-radius: 8px; box-sizing: border-box;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 960px; width: 100%; table-layout: fixed; border-collapse: collapse; background-color: #181818; border: 1px solid #2A2A2A; border-radius: 8px; box-sizing: border-box;">
 <tr>
 <td style="padding: 0;">
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #141414; border-bottom: 1px solid #2A2A2A; border-radius: 8px 8px 0 0;">
@@ -39,7 +39,7 @@
 <br>
 
 <!-- DASHBOARD CONTAINER: TWO COLUMN LAYOUT -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed; border-collapse: collapse; box-sizing: border-box;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 960px; width: 100%; table-layout: fixed; border-collapse: collapse; box-sizing: border-box;">
 <tr>
 <!-- LEFT COLUMN: CURRENT BUILD -->
 <td width="36%" valign="top">
@@ -115,7 +115,7 @@ Designing developer tooling, high-performance CLI utilities, and low-level execu
 <br>
 
 <!-- FEATURED SYSTEMS & INFRASTRUCTURE MATRIX -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed; border-collapse: collapse; background-color: #181818; border: 1px solid #2A2A2A; border-radius: 6px; box-sizing: border-box;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 960px; width: 100%; table-layout: fixed; border-collapse: collapse; background-color: #181818; border: 1px solid #2A2A2A; border-radius: 6px; box-sizing: border-box;">
 <tr>
 <td style="padding: 10px 14px; background-color: #141414; border-bottom: 1px solid #2A2A2A; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6E7681; font-weight: 600; letter-spacing: 0.08em;" align="left">
 🏛️ FEATURED_SYSTEMS &amp; INFRASTRUCTURE
@@ -189,7 +189,7 @@ Low-level inference runtime architectures, model execution layers, and memory op
 <br>
 
 <!-- FIRST PRINCIPLES PHILOSOPHY -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed; border-collapse: collapse; background-color: #181818; border: 1px solid #2A2A2A; border-radius: 6px; box-sizing: border-box;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 960px; width: 100%; table-layout: fixed; border-collapse: collapse; background-color: #181818; border: 1px solid #2A2A2A; border-radius: 6px; box-sizing: border-box;">
 <tr>
 <td style="padding: 10px 14px; background-color: #141414; border-bottom: 1px solid #2A2A2A; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6E7681; font-weight: 600; letter-spacing: 0.08em;" align="left">
 🎯 ENGINEERING_METHODOLOGY
@@ -235,7 +235,7 @@ Honest, resilient software focused on technical rigor and long-term architectura
 <br>
 
 <!-- JOURNEY FLOW -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed; border-collapse: collapse; background-color: #181818; border: 1px solid #2A2A2A; border-radius: 6px; box-sizing: border-box;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 960px; width: 100%; table-layout: fixed; border-collapse: collapse; background-color: #181818; border: 1px solid #2A2A2A; border-radius: 6px; box-sizing: border-box;">
 <tr>
 <td style="padding: 10px 14px; background-color: #141414; border-bottom: 1px solid #2A2A2A; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #6E7681; font-weight: 600; letter-spacing: 0.08em;" align="left">
 ENGINEERING_JOURNEY // EVOLUTION OF CURIOSITY
@@ -262,7 +262,7 @@ ENGINEERING_JOURNEY // EVOLUTION OF CURIOSITY
 <br>
 
 <!-- FOOTER -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed; border-collapse: collapse; background-color: #181818; border: 1px solid #2A2A2A; border-radius: 6px; box-sizing: border-box;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 960px; width: 100%; table-layout: fixed; border-collapse: collapse; background-color: #181818; border: 1px solid #2A2A2A; border-radius: 6px; box-sizing: border-box;">
 <tr>
 <td align="center" style="padding: 18px;">
 <em style="font-family: 'Inter', sans-serif; font-size: 13px; color: #D0D0D0;">"I enjoy understanding the software that everything else depends on."</em>
