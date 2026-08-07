@@ -1,55 +1,54 @@
-<svg width="920" height="240" viewBox="0 0 920 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="880" height="240" viewBox="0 0 880 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bg { fill: #181818; stroke: #2A2A2A; stroke-width: 1; rx: 8px; }
     .header { font-family: 'Inter', sans-serif; font-size: 20px; font-weight: 700; fill: #F5F5F5; letter-spacing: -0.01em; }
     .sub { font-family: 'Inter', sans-serif; font-size: 13px; fill: #A0A0A0; }
     .mono { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #888888; }
     .mono-bold { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #F5F5F5; font-weight: 600; }
-    .accent { fill: #4FA3FF; font-weight: 600; }
     .card { fill: #121212; stroke: #262626; stroke-width: 1; rx: 6px; }
     .tag { fill: #222222; stroke: #2A2A2A; stroke-width: 1; rx: 4px; }
   </style>
 
   <!-- Container -->
-  <rect x="0.5" y="0.5" width="919" height="239" class="bg" />
+  <rect x="0.5" y="0.5" width="879" height="239" class="bg" />
 
   <!-- Top Accent Line -->
-  <path d="M 8 1 L 912 1" stroke="#4FA3FF" stroke-width="2" stroke-linecap="round" />
+  <path d="M 8 1 L 872 1" stroke="#4FA3FF" stroke-width="2" stroke-linecap="round" />
 
   <!-- Content Left -->
   <g transform="translate(32, 28)">
     <!-- Header & Badge -->
     <text x="0" y="22" class="header">ASTERIA ENGINE</text>
-    <rect x="175" y="6" width="60" height="20" class="tag" />
-    <text x="187" y="20" class="mono" fill="#4FA3FF">RUST</text>
+    <rect x="175" y="6" width="56" height="20" class="tag" />
+    <text x="186" y="20" class="mono" fill="#4FA3FF">RUST</text>
 
     <text x="0" y="46" class="sub">A lightweight, experimental browser engine built from first principles in Rust.</text>
-    <text x="0" y="66" class="sub">Designed to explore parallel rendering, memory safety, and custom GPU compositor pipelines.</text>
+    <text x="0" y="64" class="sub">Designed to explore parallel rendering, memory safety, and custom GPU compositor pipelines.</text>
 
     <!-- Key Spec Grid -->
     <g transform="translate(0, 84)">
       <!-- Spec 1 -->
-      <rect x="0" y="0" width="165" height="74" class="card" />
-      <text x="14" y="22" class="mono" fill="#666666">PARSER &amp; DOM</text>
-      <text x="14" y="42" class="mono-bold">Custom HTML5</text>
-      <text x="14" y="58" class="mono" fill="#3FB950">✓ Spec Compliant Tree</text>
+      <rect x="0" y="0" width="155" height="74" class="card" />
+      <text x="12" y="22" class="mono" fill="#666666">PARSER &amp; DOM</text>
+      <text x="12" y="42" class="mono-bold">Custom HTML5</text>
+      <text x="12" y="58" class="mono" fill="#3FB950">✓ Spec Compliant</text>
 
       <!-- Spec 2 -->
-      <rect x="175" y="0" width="165" height="74" class="card" />
-      <text x="14.5" y="22" class="mono" fill="#666666">STYLE RESOLVER</text>
-      <text x="14.5" y="42" class="mono-bold">CSS Selector Engine</text>
-      <text x="14.5" y="58" class="mono" fill="#3FB950">✓ Cascade &amp; Specificity</text>
+      <rect x="165" y="0" width="155" height="74" class="card" />
+      <text x="177" y="22" class="mono" fill="#666666">STYLE RESOLVER</text>
+      <text x="177" y="42" class="mono-bold">CSS Engine</text>
+      <text x="177" y="58" class="mono" fill="#3FB950">✓ Cascade Match</text>
 
       <!-- Spec 3 -->
-      <rect x="350" y="0" width="165" height="74" class="card" />
-      <text x="14" y="22" class="mono" fill="#666666">LAYOUT ENGINE</text>
-      <text x="14" y="42" class="mono-bold">Box &amp; Flex Layout</text>
-      <text x="14" y="58" class="mono" fill="#3FB950">✓ Multi-pass Sizing</text>
+      <rect x="330" y="0" width="155" height="74" class="card" />
+      <text x="342" y="22" class="mono" fill="#666666">LAYOUT ENGINE</text>
+      <text x="342" y="42" class="mono-bold">Box &amp; Flex Solver</text>
+      <text x="342" y="58" class="mono" fill="#3FB950">✓ Multi-pass Sizing</text>
     </g>
   </g>
 
   <!-- Visual Right: Live Renderer Status Card -->
-  <g transform="translate(580, 28)">
+  <g transform="translate(540, 28)">
     <rect x="0" y="0" width="308" height="184" class="card" />
     
     <!-- Mini Window Bar -->

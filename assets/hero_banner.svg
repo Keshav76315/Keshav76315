@@ -1,25 +1,25 @@
-<svg width="920" height="220" viewBox="0 0 920 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="880" height="220" viewBox="0 0 880 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bg { fill: #181818; stroke: #2A2A2A; stroke-width: 1; }
     .header-bar { fill: #141414; stroke: #2A2A2A; stroke-width: 1; }
     .title { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 26px; fill: #F5F5F5; letter-spacing: -0.02em; }
     .subtitle { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 13px; fill: #A0A0A0; }
-    .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; fill: #6E7681; }
-    .mono-accent { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; fill: #4FA3FF; font-weight: 600; }
-    .mono-green { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 10px; fill: #3FB950; font-weight: 600; }
+    .mono { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #6E7681; }
+    .mono-accent { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #4FA3FF; font-weight: 600; }
+    .mono-green { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #3FB950; font-weight: 600; }
     .tag-bg { fill: #222222; stroke: #2A2A2A; stroke-width: 1; rx: 4px; }
     .tab-active { fill: #181818; stroke: #2A2A2A; stroke-width: 1; }
-    .node-bg { fill: #1E1E1E; stroke: #2A2A2A; stroke-width: 1; rx: 6px; }
-    .node-bg-active { fill: #162438; stroke: #4FA3FF; stroke-width: 1; rx: 6px; }
+    .node-bg { fill: #1E1E1E; stroke: #2A2A2A; stroke-width: 1; rx: 5px; }
+    .node-bg-active { fill: #162438; stroke: #4FA3FF; stroke-width: 1; rx: 5px; }
     .node-text { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #A0A0A0; text-anchor: middle; }
     .node-text-active { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #4FA3FF; font-weight: 600; text-anchor: middle; }
   </style>
 
   <!-- Main Frame -->
-  <rect x="0.5" y="0.5" width="919" height="219" rx="8" class="bg" />
+  <rect x="0.5" y="0.5" width="879" height="219" rx="8" class="bg" />
 
   <!-- Top IDE Header Bar -->
-  <path d="M 0.5 8.5 C 0.5 4 4 0.5 8.5 0.5 L 911.5 0.5 C 916 0.5 919.5 4 919.5 8.5 L 919.5 36.5 L 0.5 36.5 Z" class="header-bar" />
+  <path d="M 0.5 8.5 C 0.5 4 4 0.5 8.5 0.5 L 871.5 0.5 C 876 0.5 879.5 4 879.5 8.5 L 879.5 36.5 L 0.5 36.5 Z" class="header-bar" />
 
   <!-- Window Controls -->
   <circle cx="20" cy="18.5" r="5" fill="#FF5F56" />
@@ -32,9 +32,9 @@
   <circle cx="92" cy="18.5" r="3" fill="#4FA3FF" />
 
   <!-- Status Bar Right -->
-  <rect x="760" y="10" width="140" height="18" rx="4" class="tag-bg" />
-  <circle cx="772" cy="19" r="3.5" fill="#3FB950" />
-  <text x="782" y="22" class="mono-green">SYS_ACTIVE • v0.4</text>
+  <rect x="720" y="10" width="146" height="18" rx="4" class="tag-bg" />
+  <circle cx="732" cy="19" r="3.5" fill="#3FB950" />
+  <text x="742" y="22" class="mono-green">SYS_ACTIVE • v0.4</text>
 
   <!-- Main Hero Content Left -->
   <text x="32" y="80" class="title">KESHAV GHAI</text>
@@ -45,57 +45,57 @@
     <rect x="0" y="0" width="105" height="22" rx="4" class="tag-bg" />
     <text x="10" y="15" class="mono">Language: <tspan fill="#F5F5F5">Rust</tspan></text>
 
-    <rect x="113" y="0" width="125" height="22" rx="4" class="tag-bg" />
+    <rect x="113" y="0" width="135" height="22" rx="4" class="tag-bg" />
     <text x="123" y="15" class="mono">Target: <tspan fill="#4FA3FF">Browser Engine</tspan></text>
 
-    <rect x="246" y="0" width="120" height="22" rx="4" class="tag-bg" />
-    <text x="256" y="15" class="mono">Graphics: <tspan fill="#F5F5F5">GPU / WGPU</tspan></text>
+    <rect x="256" y="0" width="120" height="22" rx="4" class="tag-bg" />
+    <text x="266" y="15" class="mono">Graphics: <tspan fill="#F5F5F5">GPU / WGPU</tspan></text>
   </g>
 
   <!-- Quote/Motto Line -->
   <text x="32" y="180" class="mono" fill="#6E7681">// Primary focus: Understanding the rendering pipeline between HTML markup and GPU pixels.</text>
 
   <!-- Right Visual: Engine Node Pipeline Diagram -->
-  <g transform="translate(540, 54)">
-    <rect x="0" y="0" width="348" height="142" rx="6" fill="#111111" stroke="#2A2A2A" stroke-width="1" />
+  <g transform="translate(520, 52)">
+    <rect x="0" y="0" width="328" height="144" rx="6" fill="#111111" stroke="#2A2A2A" stroke-width="1" />
     
     <!-- Header of mini terminal -->
-    <rect x="0" y="0" width="348" height="24" rx="6" fill="#1A1A1A" />
+    <rect x="0" y="0" width="328" height="24" rx="6" fill="#1A1A1A" />
     <text x="12" y="16" class="mono" fill="#888888">ASTERIA_PIPELINE_PREVIEW</text>
-    <line x1="0" y1="24" x2="348" y2="24" stroke="#2A2A2A" stroke-width="1" />
+    <line x1="0" y1="24" x2="328" y2="24" stroke="#2A2A2A" stroke-width="1" />
 
     <!-- Node 1: HTML -->
-    <rect x="16" y="44" width="60" height="30" class="node-bg" />
-    <text x="46" y="63" class="node-text">HTML</text>
+    <rect x="14" y="44" width="56" height="30" class="node-bg" />
+    <text x="42" y="63" class="node-text">HTML</text>
 
     <!-- Arrow 1 -->
-    <path d="M 76 59 L 94 59" stroke="#4FA3FF" stroke-width="1.5" stroke-dasharray="2 2" />
-    <polygon points="94,56 100,59 94,62" fill="#4FA3FF" />
+    <path d="M 70 59 L 86 59" stroke="#4FA3FF" stroke-width="1.5" stroke-dasharray="2 2" />
+    <polygon points="86,56 92,59 86,62" fill="#4FA3FF" />
 
     <!-- Node 2: DOM -->
-    <rect x="100" y="44" width="60" height="30" class="node-bg" />
-    <text x="130" y="63" class="node-text">DOM</text>
+    <rect x="92" y="44" width="56" height="30" class="node-bg" />
+    <text x="120" y="63" class="node-text">DOM</text>
 
     <!-- Arrow 2 -->
-    <path d="M 160 59 L 178 59" stroke="#4FA3FF" stroke-width="1.5" stroke-dasharray="2 2" />
-    <polygon points="178,56 184,59 178,62" fill="#4FA3FF" />
+    <path d="M 148 59 L 164 59" stroke="#4FA3FF" stroke-width="1.5" stroke-dasharray="2 2" />
+    <polygon points="164,56 170,59 164,62" fill="#4FA3FF" />
 
     <!-- Node 3: Layout -->
-    <rect x="184" y="44" width="65" height="30" class="node-bg" />
-    <text x="216" y="63" class="node-text">LAYOUT</text>
+    <rect x="170" y="44" width="62" height="30" class="node-bg" />
+    <text x="201" y="63" class="node-text">LAYOUT</text>
 
     <!-- Arrow 3 -->
-    <path d="M 249 59 L 266 59" stroke="#4FA3FF" stroke-width="1.5" />
-    <polygon points="266,56 272,59 266,62" fill="#4FA3FF" />
+    <path d="M 232 59 L 248 59" stroke="#4FA3FF" stroke-width="1.5" />
+    <polygon points="248,56 254,59 248,62" fill="#4FA3FF" />
 
     <!-- Node 4: GPU (Active Accent) -->
-    <rect x="272" y="44" width="60" height="30" class="node-bg-active" />
-    <text x="302" y="63" class="node-text-active">GPU</text>
+    <rect x="254" y="44" width="58" height="30" class="node-bg-active" />
+    <text x="283" y="63" class="node-text-active">GPU</text>
 
     <!-- Status Output Line -->
-    <rect x="16" y="92" width="316" height="34" rx="4" fill="#161616" stroke="#242424" stroke-width="1" />
-    <text x="26" y="113" class="mono" fill="#3FB950">✓ Render Tree Built</text>
-    <text x="160" y="113" class="mono" fill="#6E7681">Frame time: <tspan fill="#F5F5F5">0.42ms</tspan></text>
-    <text x="270" y="113" class="mono" fill="#4FA3FF">60 FPS</text>
+    <rect x="14" y="92" width="298" height="36" rx="4" fill="#161616" stroke="#242424" stroke-width="1" />
+    <text x="24" y="114" class="mono" fill="#3FB950">✓ Render Tree Built</text>
+    <text x="150" y="114" class="mono" fill="#6E7681">Frame: <tspan fill="#F5F5F5">0.42ms</tspan></text>
+    <text x="252" y="114" class="mono" fill="#4FA3FF">60 FPS</text>
   </g>
 </svg>

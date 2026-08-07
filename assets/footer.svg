@@ -1,0 +1,13 @@
+<svg width="880" height="80" viewBox="0 0 880 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #181818; stroke: #2A2A2A; stroke-width: 1; rx: 6px; }
+    .quote { font-family: 'Inter', sans-serif; font-style: italic; font-size: 14px; fill: #D0D0D0; text-anchor: middle; }
+    .tagline { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #6E7681; text-anchor: middle; }
+    .accent { fill: #4FA3FF; font-weight: 600; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="879" height="79" class="bg" />
+
+  <text x="440" y="34" class="quote">"I enjoy understanding the software that everything else depends on."</text>
+  <text x="440" y="58" class="tagline">KESHAV GHAI &nbsp;•&nbsp; <tspan class="accent">ASTERIA ENGINE</tspan> &nbsp;•&nbsp; RUST / SYSTEMS</text>
+</svg>

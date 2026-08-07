@@ -1,0 +1,67 @@
+<svg width="880" height="200" viewBox="0 0 880 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #181818; stroke: #2A2A2A; stroke-width: 1; rx: 6px; }
+    .header-bar { fill: #141414; stroke: #2A2A2A; stroke-width: 1; rx: 5px; }
+    .header-text { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #6E7681; font-weight: 600; letter-spacing: 0.08em; }
+    .th { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #777777; font-weight: 600; }
+    .mono-ver { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #4FA3FF; }
+    .mono-title { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600; fill: #F5F5F5; }
+    .mono-desc { font-family: 'Inter', sans-serif; font-size: 11px; fill: #A0A0A0; }
+    .status-done { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #3FB950; font-weight: 600; text-anchor: end; }
+    .status-wip { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #4FA3FF; font-weight: 600; text-anchor: end; }
+    .row-line { stroke: #222222; stroke-width: 1; }
+  </style>
+
+  <!-- Container -->
+  <rect x="0.5" y="0.5" width="879" height="199" class="bg" />
+
+  <!-- Top Bar -->
+  <rect x="1" y="1" width="878" height="28" class="header-bar" />
+  <line x1="0" y1="29" x2="880" y2="29" stroke="#2A2A2A" stroke-width="1" />
+  <text x="16" y="19" class="header-text">📋 ASTERIA_BUILD_LOG // RECENT MILESTONES</text>
+
+  <!-- Table Headers -->
+  <g transform="translate(20, 48)">
+    <text x="0" y="0" class="th">VERSION</text>
+    <text x="90" y="0" class="th">MILESTONE</text>
+    <text x="280" y="0" class="th">TECHNICAL DETAILS</text>
+    <text x="830" y="0" class="th" text-anchor="end">STATUS</text>
+  </g>
+
+  <line x1="16" y1="56" x2="864" y2="56" stroke="#2A2A2A" stroke-width="1" />
+
+  <!-- Row 1: v0.4.2 -->
+  <g transform="translate(20, 78)">
+    <text x="0" y="0" class="mono-ver">v0.4.2</text>
+    <text x="90" y="0" class="mono-title">Display List Scrolling</text>
+    <text x="280" y="0" class="mono-desc">Viewport scroll offset &amp; clip rect calculation</text>
+    <text x="830" y="0" class="status-done">✓ DONE</text>
+    <line x1="-4" y1="9" x2="844" y2="9" class="row-line" />
+  </g>
+
+  <!-- Row 2: v0.4.0 -->
+  <g transform="translate(20, 104)">
+    <text x="0" y="0" class="mono-ver">v0.4.0</text>
+    <text x="90" y="0" class="mono-title">WGPU Surface Compositor</text>
+    <text x="280" y="0" class="mono-desc">GPU texture backing store &amp; pipeline binding</text>
+    <text x="830" y="0" class="status-done">✓ DONE</text>
+    <line x1="-4" y1="9" x2="844" y2="9" class="row-line" />
+  </g>
+
+  <!-- Row 3: v0.3.5 -->
+  <g transform="translate(20, 130)">
+    <text x="0" y="0" class="mono-ver">v0.3.5</text>
+    <text x="90" y="0" class="mono-title">CSS Specificity Engine</text>
+    <text x="280" y="0" class="mono-desc">Cascade sorting &amp; selector matching algorithms</text>
+    <text x="830" y="0" class="status-done">✓ DONE</text>
+    <line x1="-4" y1="9" x2="844" y2="9" class="row-line" />
+  </g>
+
+  <!-- Row 4: v0.5.0 WIP -->
+  <g transform="translate(20, 156)">
+    <text x="0" y="0" class="mono-ver">v0.5.0</text>
+    <text x="90" y="0" class="mono-title">JavaScript Runtime AST</text>
+    <text x="280" y="0" class="mono-desc">Tokenizer &amp; AST execution graph for JS engine</text>
+    <text x="830" y="0" class="status-wip">⚡ WIP</text>
+  </g>
+</svg>
