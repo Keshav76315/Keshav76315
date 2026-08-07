@@ -1,0 +1,153 @@
+<svg width="600" height="230" viewBox="0 0 600 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #181818; stroke: #2A2A2A; stroke-width: 1; rx: 6px; }
+    .header-text { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #6E7681; font-weight: 600; letter-spacing: 0.08em; }
+    .mono { font-family: 'JetBrains Mono', monospace; font-size: 10px; }
+    .node-done { fill: #141E16; stroke: #234E2B; stroke-width: 1; rx: 5px; }
+    .text-done { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #3FB950; font-weight: 600; text-anchor: middle; }
+    .node-active { fill: #162438; stroke: #4FA3FF; stroke-width: 1.5; rx: 5px; }
+    .text-active { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #4FA3FF; font-weight: 600; text-anchor: middle; }
+    .node-planned { fill: #141414; stroke: #333333; stroke-width: 1; stroke-dasharray: 3 3; rx: 5px; }
+    .text-planned { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #666666; text-anchor: middle; }
+    .arrow-done { stroke: #3FB950; stroke-width: 1.5; }
+    .arrow-planned { stroke: #333333; stroke-width: 1.5; stroke-dasharray: 2 2; }
+    .badge { fill: #222222; stroke: #2A2A2A; stroke-width: 1; rx: 3px; }
+  </style>
+
+  <!-- Panel Background -->
+  <rect x="0.5" y="0.5" width="599" height="229" class="bg" />
+
+  <!-- Header Bar -->
+  <rect x="1" y="1" width="598" height="28" fill="#141414" rx="5" />
+  <line x1="0" y1="29" x2="600" y2="29" stroke="#2A2A2A" stroke-width="1" />
+  <text x="14" y="19" class="header-text">ASTERIA_RENDERING_PIPELINE</text>
+  
+  <rect x="480" y="6" width="106" height="18" class="badge" />
+  <text x="488" y="18" class="mono" fill="#4FA3FF">Pipeline v0.4</text>
+
+  <!-- Section 1 Title: Core Pipeline (Implemented) -->
+  <text x="14" y="48" class="mono" fill="#888888">STAGE 1: RENDERING PIPELINE (HTML ➔ PIXELS)</text>
+
+  <!-- Row 1 Nodes: Core Pipeline -->
+  <!-- 1. HTML -->
+  <g transform="translate(14, 58)">
+    <rect x="0" y="0" width="60" height="34" class="node-done" />
+    <text x="30" y="17" class="text-done">HTML</text>
+    <text x="30" y="28" class="mono" fill="#2E7D32" text-anchor="middle">✓ Parser</text>
+  </g>
+
+  <path d="M 74 75 L 86 75" class="arrow-done" />
+  <polygon points="86,72 91,75 86,78" fill="#3FB950" />
+
+  <!-- 2. DOM -->
+  <g transform="translate(91, 58)">
+    <rect x="0" y="0" width="60" height="34" class="node-done" />
+    <text x="30" y="17" class="text-done">DOM</text>
+    <text x="30" y="28" class="mono" fill="#2E7D32" text-anchor="middle">✓ Tree</text>
+  </g>
+
+  <path d="M 151 75 L 163 75" class="arrow-done" />
+  <polygon points="163,72 168,75 163,78" fill="#3FB950" />
+
+  <!-- 3. STYLE -->
+  <g transform="translate(168, 58)">
+    <rect x="0" y="0" width="65" height="34" class="node-done" />
+    <text x="32.5" y="17" class="text-done">STYLE</text>
+    <text x="32.5" y="28" class="mono" fill="#2E7D32" text-anchor="middle">✓ CSS</text>
+  </g>
+
+  <path d="M 233 75 L 245 75" class="arrow-done" />
+  <polygon points="245,72 250,75 245,78" fill="#3FB950" />
+
+  <!-- 4. LAYOUT -->
+  <g transform="translate(250, 58)">
+    <rect x="0" y="0" width="70" height="34" class="node-done" />
+    <text x="35" y="17" class="text-done">LAYOUT</text>
+    <text x="35" y="28" class="mono" fill="#2E7D32" text-anchor="middle">✓ Flex</text>
+  </g>
+
+  <path d="M 320 75 L 332 75" class="arrow-done" />
+  <polygon points="332,72 337,75 332,78" fill="#3FB950" />
+
+  <!-- 5. PAINT -->
+  <g transform="translate(337, 58)">
+    <rect x="0" y="0" width="65" height="34" class="node-done" />
+    <text x="32.5" y="17" class="text-done">PAINT</text>
+    <text x="32.5" y="28" class="mono" fill="#2E7D32" text-anchor="middle">✓ Display</text>
+  </g>
+
+  <path d="M 402 75 L 414 75" class="arrow-done" />
+  <polygon points="414,72 419,75 414,78" fill="#3FB950" />
+
+  <!-- 6. GPU (Active Highlight) -->
+  <g transform="translate(419, 58)">
+    <rect x="0" y="0" width="65" height="34" class="node-done" fill="#182A1B" stroke="#3FB950" />
+    <text x="32.5" y="17" class="text-done">GPU</text>
+    <text x="32.5" y="28" class="mono" fill="#3FB950" text-anchor="middle">✓ WGPU</text>
+  </g>
+
+  <path d="M 484 75 L 496 75" class="arrow-done" />
+  <polygon points="496,72 501,75 496,78" fill="#3FB950" />
+
+  <!-- 7. PIXELS -->
+  <g transform="translate(501, 58)">
+    <rect x="0" y="0" width="84" height="34" class="node-active" />
+    <text x="42" y="17" class="text-active">PIXELS</text>
+    <text x="42" y="28" class="mono" fill="#4FA3FF" text-anchor="middle">⚡ Screen</text>
+  </g>
+
+  <!-- Section Divider -->
+  <line x1="14" y1="110" x2="585" y2="110" stroke="#262626" stroke-width="1" />
+
+  <!-- Section 2 Title: Upcoming Subsystems -->
+  <text x="14" y="130" class="mono" fill="#888888">STAGE 2: UPCOMING SUBSYSTEMS &amp; RUNTIME EXTENSIONS</text>
+
+  <!-- Row 2 Nodes: Upcoming Extensions -->
+  <!-- JavaScript Runtime (Current Focus) -->
+  <g transform="translate(14, 142)">
+    <rect x="0" y="0" width="175" height="42" class="node-active" />
+    <circle cx="18" cy="21" r="5" fill="#4FA3FF" />
+    <text x="30" y="18" class="mono" fill="#F5F5F5" font-weight="600">JAVASCRIPT RUNTIME</text>
+    <text x="30" y="32" class="mono" fill="#4FA3FF">Focus: V8 / Custom AST</text>
+    <rect x="135" y="8" width="32" height="15" rx="2" fill="#1C385E" />
+    <text x="151" y="19" class="mono" fill="#4FA3FF" font-size="9" text-anchor="middle">NEXT</text>
+  </g>
+
+  <path d="M 189 163 L 209 163" class="arrow-planned" />
+  <polygon points="209,160 214,163 209,166" fill="#333333" />
+
+  <!-- Network Engine -->
+  <g transform="translate(214, 142)">
+    <rect x="0" y="0" width="175" height="42" class="node-planned" />
+    <circle cx="18" cy="21" r="4" fill="#555555" />
+    <text x="30" y="18" class="mono" fill="#888888" font-weight="600">NETWORK PROTOCOL</text>
+    <text x="30" y="32" class="mono" fill="#555555">HTTP/2 • TLS • Fetch</text>
+    <rect x="135" y="8" width="32" height="15" rx="2" fill="#1F1F1F" />
+    <text x="151" y="19" class="mono" fill="#666666" font-size="9" text-anchor="middle">PLANNED</text>
+  </g>
+
+  <path d="M 389 163 L 409 163" class="arrow-planned" />
+  <polygon points="409,160 414,163 409,166" fill="#333333" />
+
+  <!-- Accessibility Tree -->
+  <g transform="translate(414, 142)">
+    <rect x="0" y="0" width="171" height="42" class="node-planned" />
+    <circle cx="18" cy="21" r="4" fill="#555555" />
+    <text x="30" y="18" class="mono" fill="#888888" font-weight="600">ACCESSIBILITY TREE</text>
+    <text x="30" y="32" class="mono" fill="#555555">A11y Node Mapping</text>
+    <rect x="131" y="8" width="32" height="15" rx="2" fill="#1F1F1F" />
+    <text x="147" y="19" class="mono" fill="#666666" font-size="9" text-anchor="middle">PLANNED</text>
+  </g>
+
+  <!-- Bottom Legend -->
+  <g transform="translate(14, 202)">
+    <circle cx="5" cy="5" r="4" fill="#3FB950" />
+    <text x="14" y="8" class="mono" fill="#888888">Implemented Stage</text>
+
+    <circle cx="130" cy="5" r="4" fill="#4FA3FF" />
+    <text x="140" y="8" class="mono" fill="#888888">Current Focus</text>
+
+    <circle cx="230" cy="5" r="4" fill="#444444" />
+    <text x="240" y="8" class="mono" fill="#666666">Upcoming Phase</text>
+  </g>
+</svg>

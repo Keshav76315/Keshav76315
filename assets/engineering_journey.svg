@@ -1,0 +1,83 @@
+<svg width="920" height="100" viewBox="0 0 920 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #181818; stroke: #2A2A2A; stroke-width: 1; rx: 8px; }
+    .header { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; fill: #6E7681; letter-spacing: 0.08em; }
+    .mono { font-family: 'JetBrains Mono', monospace; font-size: 10px; }
+    .step-past { fill: #141414; stroke: #282828; stroke-width: 1; rx: 4px; }
+    .text-past { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #777777; text-anchor: middle; }
+    .step-active { fill: #162438; stroke: #4FA3FF; stroke-width: 1; rx: 4px; }
+    .text-active { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #4FA3FF; font-weight: 600; text-anchor: middle; }
+    .arrow-past { stroke: #333333; stroke-width: 1; }
+    .arrow-active { stroke: #4FA3FF; stroke-width: 1.5; }
+  </style>
+
+  <!-- Background -->
+  <rect x="0.5" y="0.5" width="919" height="99" class="bg" />
+
+  <!-- Top Bar -->
+  <text x="20" y="24" class="header">ENGINEERING_JOURNEY // EVOLUTION OF CURIOSITY</text>
+  <line x1="20" y1="32" x2="900" y2="32" stroke="#262626" stroke-width="1" />
+
+  <!-- Journey Pipeline -->
+  <g transform="translate(16, 46)">
+    <!-- 1. Curiosity -->
+    <rect x="0" y="0" width="76" height="30" class="step-past" />
+    <text x="38" y="19" class="text-past">Curiosity</text>
+
+    <path d="M 76 15 L 88 15" class="arrow-past" />
+    <polygon points="88,12 93,15 88,18" fill="#333333" />
+
+    <!-- 2. Automation -->
+    <rect x="93" y="0" width="84" height="30" class="step-past" />
+    <text x="135" y="19" class="text-past">Automation</text>
+
+    <path d="M 177 15 L 189 15" class="arrow-past" />
+    <polygon points="189,12 194,15 189,18" fill="#333333" />
+
+    <!-- 3. Backend -->
+    <rect x="194" y="0" width="72" height="30" class="step-past" />
+    <text x="230" y="19" class="text-past">Backend</text>
+
+    <path d="M 266 15 L 278 15" class="arrow-past" />
+    <polygon points="278,12 283,15 278,18" fill="#333333" />
+
+    <!-- 4. ML -->
+    <rect x="283" y="0" width="72" height="30" class="step-past" />
+    <text x="319" y="19" class="text-past">Machine Lng</text>
+
+    <path d="M 355 15 L 367 15" class="arrow-past" />
+    <polygon points="367,12 372,15 367,18" fill="#333333" />
+
+    <!-- 5. Dev Tools -->
+    <rect x="372" y="0" width="80" height="30" class="step-past" />
+    <text x="412" y="19" class="text-past">Dev Tools</text>
+
+    <path d="M 452 15 L 464 15" class="arrow-past" />
+    <polygon points="464,12 469,15 464,18" fill="#333333" />
+
+    <!-- 6. Systems -->
+    <rect x="469" y="0" width="105" height="30" class="step-active" />
+    <text x="521.5" y="19" class="text-active">Systems Prog</text>
+
+    <path d="M 574 15 L 586 15" class="arrow-active" />
+    <polygon points="586,12 591,15 586,18" fill="#4FA3FF" />
+
+    <!-- 7. Rendering -->
+    <rect x="591" y="0" width="84" height="30" class="step-active" />
+    <text x="633" y="19" class="text-active">Rendering</text>
+
+    <path d="M 675 15 L 687 15" class="arrow-active" />
+    <polygon points="687,12 692,15 687,18" fill="#4FA3FF" />
+
+    <!-- 8. Browser Engine -->
+    <rect x="692" y="0" width="124" height="30" class="step-active" fill="#1C324D" stroke="#4FA3FF" stroke-width="1.5" />
+    <text x="754" y="19" class="text-active" font-size="11">Browser Engine</text>
+
+    <path d="M 816 15 L 828 15" class="arrow-active" />
+    <polygon points="828,12 833,15 828,18" fill="#4FA3FF" />
+
+    <!-- 9. ? -->
+    <rect x="833" y="0" width="50" height="30" class="step-active" stroke-dasharray="3 3" fill="#111111" />
+    <text x="858" y="19" class="text-active" fill="#F5F5F5">?</text>
+  </g>
+</svg>
